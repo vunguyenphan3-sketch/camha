@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phạm Võ Cẩm Hà - 12D5 | Bloom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-pink: #ffb7c5;
+            --soft-purple: #9b7ede;
+            --bg-light: #fff5f8;
+            --text-color: #5d5d5d;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            background-color: var(--bg-light);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--soft-purple), var(--primary-pink));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom-left-radius: 50% 20px;
+            border-bottom-right-radius: 50% 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p { font-size: 1.1rem; opacity: 0.9; letter-spacing: 1px; }
+
+        nav {
+            background: white;
+            position: sticky;
+            top: 0;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        nav a {
+            color: var(--soft-purple);
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        section { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255, 183, 197, 0.2);
+            border: 1px solid rgba(155, 126, 222, 0.1);
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--soft-purple);
+            border-bottom: 2px dashed var(--primary-pink);
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        /* Style cho Thời khóa biểu */
+        .tkb-wrapper { overflow-x: auto; margin-top: 10px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-light);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        th {
+            background: var(--soft-purple);
+            color: white;
+            padding: 12px;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #fce4ec;
+            font-size: 0.9rem;
+        }
+        tr:nth-child(even) { background: #fff; }
+
+        .grid-sothich {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+        }
+
+        .hobby-item {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 15px;
+            text-align: center;
+            font-weight: 600;
+            border: 1px solid var(--primary-pink);
+        }
+
+        footer { text-align: center; padding: 40px; color: #aaa; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cẩm Hà 🌷</h1>
+    <p>Gieo mầm hy vọng - Gặt hái thành công</p>
+</header>
+
+<nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#hocvan">Học tập</a>
+    <a href="#sothich">Sở thích</a>
+</nav>
+
+<section id="gioithieu">
+    <div class="box">
+        <h2>🌸 Giới thiệu bản thân</h2>
+        <p>Chào bạn, mình là <b>Phạm Võ Cẩm Hà</b>. Một cô gái lớp 12 luôn tràn đầy năng lượng và yêu thích những điều nhỏ bé xinh đẹp trong cuộc sống.</p>
+    </div>
+</section>
+
+<section id="hocvan">
+    <div class="box">
+        <h2>📚 Hành trình học vấn</h2>
+        <p>Hiện đang theo học tại <b>Trường THPT Nguyễn Khuyến</b> (Lớp 12D5).</p>
+        
+        <h3 style="color: var(--soft-purple); margin-top: 25px;">🗓️ Thời khóa biểu của Hà</h3>
+        <div class="tkb-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tiết</th>
+                        <th>Thứ 2</th>
+                        <th>Thứ 3</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Văn</td><td>Toán</td><td>Anh</td><td>Lý</td><td>Văn</td><td>Sử</td></tr>
+                    <tr><td>2</td><td>Văn</td><td>Toán</td><td>Anh</td><td>Lý</td><td>Văn</td><td>Địa</td></tr>
+                    <tr><td>3</td><td>Toán</td><td>Sử</td><td>Toán</td><td>Hóa</td><td>Anh</td><td>Tin</td></tr>
+                    <tr><td>4</td><td>Địa</td><td>Anh</td><td>Hóa</td><td>Sinh</td><td>Toán</td><td>SHL</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="sothich">
+    <div class="box">
+        <h2>🎀 Góc Sở Thích</h2>
+        <div class="grid-sothich">
+            <div class="hobby-item">🎨 Vẽ tranh</div>
+            <div class="hobby-item">🎵 Nghe nhạc</div>
+            <div class="hobby-item">📖 Đọc sách</div>
+            <div class="hobby-item">☕ Cafe bạn bè</div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    &copy; 2026 Phạm Võ Cẩm Hà - Bloom your way ✨
+</footer>
+
+</body>
+</html>
